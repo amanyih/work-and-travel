@@ -31,6 +31,11 @@ function App() {
   return (
     <div className="flex h-screen">
       <div className="w-1/2 flex flex-col overflow-hidden">
+        <header className="p-4  bg-gray-50">
+          <h1 className="text-2xl font-semibold text-gray-800">
+            Available Jobs
+          </h1>
+        </header>
         <div className="p-4 border-b">
           <Filters
             companies={companies}
